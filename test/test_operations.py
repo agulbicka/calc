@@ -1,4 +1,7 @@
-from ..code import operations
+import unittest
+import sys
+sys.path.insert(0, "../")
+import operations
 
 class TestOperations(unittest.TestCase):
 
